@@ -1,0 +1,83 @@
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #f8f9fa;
+   width: 80vw;
+   margin: auto;
+   padding: 20px 80px;
+   margin: 50px auto;
+  }
+  
+  .imageContainer {
+    
+    max-width: 500px;
+ 
+  }
+  .image {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textContainer {
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 500px;
+   
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .description {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #555;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .heroSection {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .imageContainer {
+      flex: 1;
+      max-width: 50%;
+    }
+  
+    .textContainer {
+      flex: 1;
+      margin-top: 0;
+      padding-left: 2rem;
+    }
+  }
+  

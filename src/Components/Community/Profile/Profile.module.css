@@ -1,0 +1,89 @@
+.profileContainer {
+    width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+    
+  .pageTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+    
+  .profileCard {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: 6px solid #e63946; /* Accent color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+    
+  .cardHeader {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  .cardHeader h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+    
+  .cardContent {
+    padding: 20px;
+  }
+    
+  .detailRow {
+    display: flex;
+    margin-bottom: 12px;
+  }
+    
+  .detailRow:last-child {
+    margin-bottom: 0;
+  }
+    
+  .label {
+    flex-basis: 150px;
+    font-weight: 600;
+    color: #555;
+  }
+    
+  .value {
+    flex: 1;
+    padding-left: 30%;
+    color: #333;
+  }
+    
+  .noProfiles {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  /* Additional CSS for the Delete Button */
+  .deleteButton {
+    background-color: #e63946;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d62828;
+  }
+  

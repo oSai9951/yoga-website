@@ -1,0 +1,73 @@
+.footer {
+    width: 100%;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: rgb(237, 236, 236);
+    border-top: 2px solid black;
+    border-radius: 0.6rem;
+    color: black;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .quickLinks{
+    margin-left: 400px;
+  }
+  .about,
+  .quickLinks,
+  .social {
+    flex: 1;
+    min-width: 200px;
+  }
+  .about h3{
+    color: red;
+  }
+  .about h3,
+  .quickLinks h3,
+  .social h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .quickLinks ul,
+  .social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quickLinks li,
+  .social li {
+    margin-bottom: 8px;
+  }
+  
+  .quickLinks a,
+  .social a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .quickLinks a:hover,
+  .social a:hover {
+    color: rgb(233, 52, 52);
+  }
+  
+  .bottomBar {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 0.9rem;
+  }
+  

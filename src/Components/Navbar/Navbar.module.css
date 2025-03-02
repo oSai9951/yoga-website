@@ -1,0 +1,42 @@
+.topHeader{
+    max-width: 100vw;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(233, 52, 52);
+    text-shadow:  2px 1px 10px #b7b7b7;
+    letter-spacing: 1rem;
+    background-color: rgb(237, 236, 236);
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #9a9999
+}
+.header{    
+    font-size: 1.3rem;
+    width: 95vw;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(237, 236, 236);
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    margin-bottom: 10px;
+}
+.allLinks{
+    display: flex;
+    gap: 4rem;
+  font-size: 1.1rem;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    width: 2.2rem;
+    margin-top: 8px;
+    padding: 2px;
+    border: 1px solid rgb(150, 150, 150);
+}

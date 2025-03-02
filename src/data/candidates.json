@@ -1,0 +1,9 @@
+{
+    "candidateId": "candidate_001",
+    "fullName": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "+11234567890",
+    "experienceLevel": "Intermediate",
+    "preferredPoses": [1, 3, 5],
+    "registrationDate": "2025-03-01T12:00:00Z"
+  }
