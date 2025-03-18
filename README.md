@@ -10,7 +10,11 @@ Yoga Community Hub is a vibrant platform where yoga enthusiasts share their favo
 - **Difficulty Ratings:** Easily tag each pose by its difficulty level.
 - **Tailored Recommendations:** Receive customized information to different experience levels.
 - **Form:** Fill the form everytime to keep working out and boast your confidence.
-- 
+ 
+## For Login
+**Email:** - sai100@gmail.com
+**Password** - 100
+
 ### Technologies
 - **Frontend:** Built with React.js for interactive user interface.
 - **State Management:** Utilizes useState by React for handling state management.
