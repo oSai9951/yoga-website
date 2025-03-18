@@ -12,7 +12,7 @@ Yoga Community Hub is a vibrant platform where yoga enthusiasts share their favo
 - **Form:** Fill the form everytime to keep working out and boast your confidence.
  
 ## For Login
-**Email:** - sai100@gmail.com
+**Email:** - sai100@gmail.com <br/>
 **Password** - 100
 
 ### Technologies
